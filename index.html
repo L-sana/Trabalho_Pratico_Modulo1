@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho Prático do Módulo 1</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <div class="col-md-12">
+        <h1>Trabalho Prático do Módulo 1</h1>
+        <h2>Paleta de cores RGB</h2>
+
+        <p>
+            <label for="red">(R) Vermelho: </label>
+            <input id="red" type="range" min="0" max="255" value="0">
+            <input id="redNum" type="text" value="0" size="5" disabled>
+        </p>
+        <p>
+            <label class="alinhamentoG" for="green">(G) Verde: </label>
+            <input id="green" type="range" min="0" max="255" value="0">
+            <input id="greenNum" type="text" value="0" size="5" disabled>
+        </p>
+        <p>
+            <label class="alinhamentoB" for="blue">(B) Azul: </label>
+            <input id="blue" type="range" min="0" max="255" value="0">
+            <input id="blueNum" type="text" value="0" size="5" disabled>
+        </p>
+    </div>
+
+    <div class="paleta" id="paleta">
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
